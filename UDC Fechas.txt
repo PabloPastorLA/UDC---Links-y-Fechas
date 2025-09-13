@@ -1,0 +1,25 @@
+# Este archivo contiene las fechas de trabajos, parciales y finales
+# Fecha formato: dd/mm o dd/mm/aa
+# Comentarios con #, // 
+# No modificar los corchetes de las materias.
+# Se debe machear el nombre entre [] con el nombre en el html.
+
+
+[Matematica aplicada II]
+Entrega TP1: 20/09			   # Primera entrega
+Parcial 1: 05/10
+TP2 error relativo: 18/10
+
+[Paradigmas de Programación)]
+TP1: 18/09
+Parcial 1: 12/10
+TP2: 22/10  se paso falta tal cosa
+
+[Técnicas Avanzadas de Programación]
+TP1: 22/09
+Parcial 1: 10/10
+
+[Arquitectura y Sistemas Operativos]
+Entrega TP1: 25/09
+Parcial 1: 15/10
+
