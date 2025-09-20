@@ -1,0 +1,106 @@
+/* ------------------------- General ------------------------- */
+body{
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+  transition: all 0.25s ease;
+}
+h2 { text-align:center; font-size:28px; margin-bottom:10px; }
+label { margin-right:8px; }
+hr { margin: 20px 0; border: none; border-top: 2px solid #ccc; }
+
+#fileEditContainer { margin-bottom: 8px; }
+button, select {
+  margin: 6px 6px 6px 0;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease;
+}
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+#fechas {
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.materia { margin-bottom: 18px; }
+.materia h4 { margin: 4px 0 8px 0; }
+.materia a {
+  display:inline-block;
+  margin:4px 6px 4px 0;
+  padding:6px 10px;
+  border-radius:6px;
+  text-decoration:none;
+  transition: transform .12s ease, background .12s ease;
+}
+.materia a:hover { transform: translateY(-2px); }
+
+/* Editor */
+#editorContainer { margin-top: 12px; }
+#editor {
+  width:100%;
+  font-family: "Courier New", monospace;
+  border-radius:6px;
+  border:1px solid #bbb;
+  padding:10px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Event colors for list items */
+li.tp { color: #b45309; font-weight:600; }           /* goldenrod/darker */
+li.tp-entregado { color: #166534; font-weight:700; }  /* green */
+li.examen { color: #b91c1c; font-weight:700; }        /* red */
+li.examen-listo { color: #166534; font-weight:700; }  /* green */
+
+/* Anchor classes to color buttons by state (override theme anchors) */
+.materia a.tp { background: #facc15; color: #111; border: 1px solid rgba(0,0,0,0.12); }
+.materia a.tp-entregado { background: #16a34a; color: #fff; border: 1px solid rgba(0,0,0,0.12); }
+.materia a.examen { background: #dc2626; color: #fff; border: 1px solid rgba(0,0,0,0.12); }
+.materia a.examen-listo { background: #16a34a; color: #fff; border: 1px solid rgba(0,0,0,0.12); }
+
+/* ------------------------- Temas ------------------------- */
+
+/* Light */
+body.light { background: #f9fafb; color: #111827; }
+body.light button { background:#2563eb; color:#fff; }
+body.light button:hover { background:#1e40af; color:#fff; }
+body.light .materia a { background:#e5e7eb; color:#111; }
+body.light .materia a:hover { filter:brightness(.95); }
+
+/* Dark */
+body.dark { background:#0b1220; color:#e6eef6; }
+body.dark button { background:#1f2937; color:#e6eef6; }
+body.dark button:hover { background:#2563eb; color:#fff; }
+body.dark .materia a { background:#1f2937; color:#e6eef6; }
+body.dark .materia a:hover { filter:brightness(.95); }
+
+/* Neon */
+body.neon { background:#000; color:#39ff14; }
+body.neon button { background:#39ff14; color:#020202; }
+body.neon button:hover { background:#ff00ff; color:#fff; }
+body.neon .materia a { background:#111; color:#39ff14; }
+body.neon .materia a:hover { filter:brightness(.9); }
+
+/* Grayscale */
+body.grayscale { background:#efefef; color:#111; }
+body.grayscale button { background:#666; color:#fff; }
+body.grayscale button:hover { background:#444; color:#fff; }
+body.grayscale .materia a { background:#ddd; color:#111; }
+body.grayscale .materia a:hover { filter:brightness(.95); }
+
+/* Monokai (default) */
+body.monokai { background:#272822; color:#f8f8f2; }
+body.monokai h2 { color:#a6e22e; }
+body.monokai button { background:#66d9ef; color:#1b1b1b; }
+body.monokai button:hover { background:#fd971f; color:#fff; }
+body.monokai .materia a { background:#3e3d32; color:#f8f8f2; border:1px solid rgba(255,255,255,0.06); }
+body.monokai .materia a:hover { background:#f92672; color:#fff; }
+
+/* Ensure anchor state-classes override theme anchor backgrounds (placed at the end) */
+.materia a.tp { /* keep the tp yellow visible on any theme */ box-shadow: none; }
+.materia a.tp-entregado { box-shadow: none; }
+.materia a.examen { box-shadow: none; }
+.materia a.examen-listo { box-shadow: none; }
