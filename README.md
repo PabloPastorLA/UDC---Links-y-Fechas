@@ -47,6 +47,6 @@ git clone https://github.com/PabloPastorLA/UDC---Links-y-Fechas.git
 
 [Descargar ZIP del proyecto](https://github.com/PabloPastorLA/UDC---Links-y-Fechas/archive/refs/heads/master.zip)
 
-## 🔄 Que necesidad viene a cubrir???
+## 🤔 Y esta cosa, ¿qué necesidad viene a cubrir?
 
-#### Algo masomenos practico/visual para recordarnos fechas importantes evitando (lo que se pueda) tener que acceder al campus las veces que los bytes viajan en gomera...
+#### 📅 Algo más o menos práctico/visual para recordarnos **fechas importantes** 📝, evitando (en lo que se pueda) tener que acceder al campus 🏫 cada vez que los bytes viajan en gomera 💨💻...
