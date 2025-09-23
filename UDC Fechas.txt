@@ -1,3 +1,6 @@
+[Config]
+Tema = monokai
+
 # Este archivo contiene las fechas de trabajos, parciales y finales
 # Fecha formato: dd/mm o dd/mm/aa
 # Comentarios con #, // 
@@ -18,10 +21,7 @@ TP2 error relativo: 18/10
 General = https://campus.udc.edu.ar/course/view.php?id=1398&section=0
 Virtual = https://campus.udc.edu.ar/mod/bigbluebuttonbn/view.php?id=63001
 --------------------------------------------------------------------------
-TP1: 18/09
-Parcial 1: 12/10
-TP2: 22/10  se paso falta tal cosa
-
+TP6 Herencia y Polimorfismo: lunes, 22 de septiembre de 2025, 23:59
 
 --------------------------------------------------------------------------
 [Técnicas Avanzadas de Programación]
